@@ -1,0 +1,42 @@
+@font-face {
+    src: url("font/CursedTimerUlil-Aznm.ttf");
+    font-family: cursed-timer;
+}
+
+body {
+    margin: 0;
+    background-color: #1b244a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 5px 0;
+    color: whitesmoke;
+}
+
+.score-display {
+    margin-bottom: 20px;
+    padding: 10px auto;
+    border-radius: 10px;
+    background-color: black;
+    color: #f94f6d;
+    height: 80px;
+    font-size: 70px;
+    font-family: cursed-timer;
+    text-align: center;
+}
+
+.add-score-btn {
+    font-family: cursed-timer;
+    background-color: transparent;
+    color: #9aabd8;
+    border:2px solid #9aabd8;
+    border-radius: 5px;
+    padding: 5px;
+}
